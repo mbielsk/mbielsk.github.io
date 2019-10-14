@@ -3,15 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mbielsk.it/categories/</loc>
+    <loc>http://mbielsk.it/tags/docker/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mbielsk.it/post/2019/10/11/dockerize-go/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mbielsk.it/tags/go/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://mbielsk.it/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mbielsk.it/post/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://mbielsk.it/tags/</loc>
+    <lastmod>2019-10-11T13:13:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mbielsk.it/categories/</loc>
   </url>
   
 </urlset>
