@@ -18,7 +18,8 @@
       
       <guid>http://mbielsk.it/post/2019/10/11/dockerize-go/</guid>
       <description>#Go #Docker
-Work in progress</description>
+Just a quick note on how to dockerize a simple statelss webapp written in go. It is a two stage build to make the final image as compact as possible. At the moment for my app the final image has size of about 10mb, before optimization it was about 1gb!
+FROM golang:1.13-alpine as builder RUN apk add --no-cache --virtual .build-deps \ bash \ gcc \ git \ musl-dev RUN mkdir build COPY .</description>
     </item>
     
     <item>

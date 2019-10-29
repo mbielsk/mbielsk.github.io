@@ -32,7 +32,32 @@
 <main>
 <p>#Go #Docker</p>
 
-<p>Work in progress</p>
+<p>Just a quick note on how to dockerize a simple statelss webapp written in go.
+It is a two stage build to make the final image as compact as possible. At the moment for my app the final image has size of about 10mb, before optimization it was about 1gb!</p>
+
+<pre><code>FROM golang:1.13-alpine as builder
+
+RUN apk add --no-cache --virtual .build-deps \
+    bash \
+    gcc \
+    git \
+    musl-dev
+
+RUN mkdir build
+COPY . /build
+WORKDIR /build
+
+RUN go get
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags &quot;-static&quot;' -o goapp .
+RUN adduser -S -D -H -h /build goapp
+USER goapp
+
+FROM scratch
+COPY --from=builder /build/goapp /app/
+WORKDIR /app
+EXPOSE 7778
+CMD [&quot;./goapp&quot;]
+</code></pre>
 
 </main>
 
