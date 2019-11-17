@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rambling on mbielsk&#39;s notes</title>
+    <title>rambling on mbielsk&#39;s notes</title>
     <link>http://mbielsk.it/tags/rambling/</link>
-    <description>Recent content in Rambling on mbielsk&#39;s notes</description>
+    <description>Recent content in rambling on mbielsk&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-</language>
     <lastBuildDate>Fri, 11 Oct 2019 09:54:49 +0200</lastBuildDate>
     
 	<atom:link href="http://mbielsk.it/tags/rambling/index.xml" rel="self" type="application/rss+xml" />
@@ -13,12 +13,12 @@
     
     <item>
       <title>About</title>
-      <link>http://mbielsk.it/about/</link>
+      <link>http://mbielsk.it/about/about/</link>
       <pubDate>Fri, 11 Oct 2019 09:54:49 +0200</pubDate>
       
-      <guid>http://mbielsk.it/about/</guid>
-      <description>#Rambling
-So, what it is all about? In the middle of the next year (i.e. 2020) it will be ten years since I got mine M.Sc. diploma in Computer Science and started1 my professional career as a software developer. Hence, I decided it is a good time to stop for a moment and take a look back at the last ten years. And that&amp;rsquo;s how this weblog came to be.</description>
+      <guid>http://mbielsk.it/about/about/</guid>
+      <description>So, what it is all about? In the middle of the next year (i.e. 2020) it will be ten years since I got mine M.Sc. diploma in Computer Science and started1 my professional career as a software developer. Hence, I decided it is a good time to stop for a moment and take a look back at the last ten years. And that&amp;rsquo;s how this weblog came to be.
+Actually it&amp;rsquo;s one of two reasons to put this site on the net.</description>
     </item>
     
   </channel>

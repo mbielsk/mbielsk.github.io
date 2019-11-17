@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on mbielsk&#39;s notes</title>
+    <title>go on mbielsk&#39;s notes</title>
     <link>http://mbielsk.it/tags/go/</link>
-    <description>Recent content in Go on mbielsk&#39;s notes</description>
+    <description>Recent content in go on mbielsk&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-</language>
     <lastBuildDate>Fri, 11 Oct 2019 13:13:51 +0200</lastBuildDate>
     
 	<atom:link href="http://mbielsk.it/tags/go/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +17,7 @@
       <pubDate>Fri, 11 Oct 2019 13:13:51 +0200</pubDate>
       
       <guid>http://mbielsk.it/post/2019/10/11/dockerize-go/</guid>
-      <description>#Go #Docker
-Just a quick note on how to dockerize a simple statelss webapp written in go. It is a two stage build to make the final image as compact as possible. At the moment for my app the final image has size of about 10mb, before optimization it was about 1gb!
-FROM golang:1.13-alpine as builder RUN apk add --no-cache --virtual .build-deps \ bash \ gcc \ git \ musl-dev RUN mkdir build COPY .</description>
+      <description>&lt;p&gt;Just a quick note on how to dockerize a simple statelss webapp written in go.&lt;/p&gt;</description>
     </item>
     
   </channel>

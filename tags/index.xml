@@ -5,14 +5,14 @@
     <link>http://mbielsk.it/tags/</link>
     <description>Recent content in Tags on mbielsk&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-</language>
     <lastBuildDate>Fri, 11 Oct 2019 13:13:51 +0200</lastBuildDate>
     
 	<atom:link href="http://mbielsk.it/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Docker</title>
+      <title>docker</title>
       <link>http://mbielsk.it/tags/docker/</link>
       <pubDate>Fri, 11 Oct 2019 13:13:51 +0200</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Go</title>
+      <title>go</title>
       <link>http://mbielsk.it/tags/go/</link>
       <pubDate>Fri, 11 Oct 2019 13:13:51 +0200</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Rambling</title>
+      <title>rambling</title>
       <link>http://mbielsk.it/tags/rambling/</link>
       <pubDate>Fri, 11 Oct 2019 09:54:49 +0200</pubDate>
       

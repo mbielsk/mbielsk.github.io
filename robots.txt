@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://mbielsk.it/sitemap.xml
